@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Send, Menu, Phone, Video, MoreHorizontal } from 'lucide-react';
+import { Send, Menu, MoreHorizontal } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -130,12 +130,6 @@ export function ChatWindow({
         </div>
 
         <div className="flex items-center space-x-1">
-          <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-            <Phone className="h-4 w-4" />
-          </Button>
-          <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-            <Video className="h-4 w-4" />
-          </Button>
           <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
             <MoreHorizontal className="h-4 w-4" />
           </Button>
