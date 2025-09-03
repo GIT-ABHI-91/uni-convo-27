@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Chat-specific colors
+				'chat-sent': {
+					DEFAULT: 'hsl(var(--chat-bubble-sent))',
+					foreground: 'hsl(var(--chat-bubble-sent-foreground))'
+				},
+				'chat-received': {
+					DEFAULT: 'hsl(var(--chat-bubble-received))',
+					foreground: 'hsl(var(--chat-bubble-received-foreground))'
+				},
+				// Status colors
+				'status-online': 'hsl(var(--status-online))',
+				'status-away': 'hsl(var(--status-away))',
+				'status-offline': 'hsl(var(--status-offline))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
